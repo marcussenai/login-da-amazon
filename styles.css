@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #030558;
+    text-decoration: underline;
+}
+
+header {
+    margin-top: 14px;
+    margin-bottom: 18px;
+}
+
+.logo-container a {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo-texto {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
+    margin-bottom: 8px
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.login-card {
+    background-color: #ffffff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    width: 350px;
+    padding: 20px 26px;
+}
+
+.login-card h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 14px;
+    line-height: 1.2;
+}
+
+.login-card label {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.login-card input[type="email"] {
+    width: 100%;
+    height: 31px;
+    padding: 3px 7px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    font-size: 13px;
+    outline: none;
+    transition: all 0.1s linear;
+}
+
+.login-card input[type="email"]:focus {
+    border-color: #007185;
+    box-shadow: 0 0 2px 2px rgb(166, 213, 221);
+}
+
+.btn-continuar {
+    width: 100%;
+    height: 31px;
+    background: #ffd814;
+    border: 1px solid #fcd200;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #0f1111;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, .5);
+}
+
+.btn-continuar:hover {
+    background: #f7ca00;
+    border-color: #f2c200;
+}
+
+.texto-termos {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.texto-termos a {
+    font-size: 13px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.link-ajuda {
+    font-size: 13px;
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.03));
+    border-top: 2px solid #cacccc;
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer a {
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 200px o;
+}
+
+.subtexto {
+    font-size: 11px;
+    color: #555555;
+    margin-top: 10px;
+}
